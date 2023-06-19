@@ -1,5 +1,5 @@
 "use client";
-import { BrowserRouter } from "react-router-dom";
+// import { BrowserRouter } from "react-router-dom";
 
 import {
   About,
@@ -15,26 +15,26 @@ import {
 
 const App = () => {
   return (
-    <BrowserRouter>
-      <div className="relative z-0 bg-primary">
-        <div
-          className="bg-hero-pattern bg-cover bg-no-repeat bg-center"
-          // style={{ backgroundImage: "/../public/images/black.jpeg" }}
-        >
-          <Navbar />
-          <Hero />
-        </div>
-        <About />
-        <Tech />
-        <Works />
-        <Experience />
-        {/* <Feedbacks /> */}
-        <div className="relative z-0">
-          <Contact />
-          <StarsCanvas />
-        </div>
+    // <BrowserRouter>
+    <div className="relative z-0 bg-primary">
+      <div
+        className="bg-hero-pattern bg-cover bg-no-repeat bg-center"
+        // style={{ backgroundImage: "/../public/images/black.jpeg" }}
+      >
+        <Navbar />
+        <Hero />
       </div>
-    </BrowserRouter>
+      <About />
+      <Tech />
+      <Works />
+      <Experience />
+      {/* <Feedbacks /> */}
+      <div className="relative z-0">
+        <Contact />
+        <StarsCanvas />
+      </div>
+    </div>
+    // </BrowserRouter>
   );
 };
 
