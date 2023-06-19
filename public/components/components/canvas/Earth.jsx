@@ -49,8 +49,8 @@ const EarthCanvas = () => {
         />
         <Earth />
         <ambientLight intensity={0.3} />
-        <pointLight />
-        <spotLight />
+        <pointLight color={"orange"} />
+        <spotLight color={"orange"} />
 
         <Preload all />
       </Suspense>
