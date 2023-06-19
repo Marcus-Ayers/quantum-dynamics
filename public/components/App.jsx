@@ -22,7 +22,6 @@ const App = () => {
           // style={{ backgroundImage: "/../public/images/black.jpeg" }}
         >
           <Navbar />
-
           <Hero />
         </div>
         <About />
