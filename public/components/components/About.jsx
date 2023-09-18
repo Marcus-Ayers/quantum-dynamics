@@ -39,7 +39,6 @@ const About = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={styles.sectionSubText}>Introduction</p>
         <h2 className={styles.sectionHeadText}>Overview.</h2>
       </motion.div>
 
@@ -47,18 +46,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I am an accomplished Full Stack Software Engineer with a particular
-        focus on JavaScript-based technologies such as React, Node.js, Next.js,
-        and React Three Fiber. My comprehensive experience spans both the client
-        and server sides of application development, where I excel at creating
-        robust, scalable, and interactive web solutions.
+        Quantum Dynamics Inc. is a preeminent technology company that excels in
+        providing cutting-edge solutions for a rapidly evolving digital world.
+        With our core ethos deeply rooted in relentless innovation and
+        progressive thinking, we are committed to shaping a future where
+        technology serves as an enabler for limitless possibilities.
       </motion.p>
-
-      {/* <div className="mt-20 flex flex-wrap gap-10">
-        {services.map((service, index) => (
-          <ServiceCard key={service.title} index={index} {...service} />
-        ))}
-      </div> */}
     </>
   );
 };

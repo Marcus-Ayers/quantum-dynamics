@@ -113,55 +113,53 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Certifacation",
-    company_name: "Altcademy",
+    title: "Our Partnerships",
+    company_name:
+      "We collaborate with tech giants to access exclusive resources and drive innovation.",
     icon: "../../images/altcademy.png",
     iconBg: "#383E56",
-    date: "40hrs",
     points: [
-      "Have built dozens responsive and interactive web applications, providing a smooth user experience.",
-      "I've gained a thorough understanding of React basics, and have applied React Hooks such as useState and useEffect to manage state and side effects in functional components. ",
-      "Built high-performance, pre-rendered websites using Next.js",
-      "Developed server-rendered React applications to improve SEO performance.",
+      "Collaborations with industry leaders like Microsoft, Google, and IBM",
+      "Access to exclusive APIs and development tools",
+      "Joint research initiatives for technology innovation",
     ],
   },
   {
-    title: "Ruby on Rails certifacation",
-    company_name: "Altademy",
+    title: "Sustainability Initiatives",
+    company_name:
+      "We prioritize eco-friendly practices, from carbon-neutral data centers to renewable energy investments.",
     icon: "../../images/altcademy.png",
     iconBg: "#E6DEDD",
-    date: "50hrs",
     points: [
-      "Developed multiple full-stack web applications using Ruby on Rails, delivering a robust, scalable backend.",
-      "Developed and maintained several RESTful APIs, effectively handling request routing, data serialization, and response generation.",
-      "Successfully managed application logic, data, and presentation using Rails' MVC architecture, improving application modularity and maintainability.",
-      "Designed and implemented complex routing rules and managed corresponding controller actions for efficient request handling.",
+      "Carbon-neutral data centers",
+      "Investment in renewable energy projects",
+      "E-waste reduction programs",
+      "Employee sustainability training",
     ],
   },
   {
-    title: "Javascript certifacation",
-    company_name: "Altcademy",
+    title: "Awards & Recognition",
+    company_name:
+      "Accolades from industry authorities affirm our commitment to excellence and customer satisfaction.",
     icon: "../../images/altcademy.png",
     iconBg: "#383E56",
-    date: "50hrs",
     points: [
-      "Used modern JavaScript syntax and features such as arrow functions, classes, modules, template literals, spread/rest operators, destructuring, promises, async/await in various web development projects.",
-      "Frequently used DOM manipulation to dynamically modify HTML and CSS, allowing for interactive and responsive user interfaces.",
-      "Used asynchronous techniques to handle network requests, file I/O, and other long-running tasks, improving the overall performance of applications.",
-      "Successfully implemented several features that require fetching data from APIs, understanding how to handle both success and error responses.",
+      "Best Tech Company of the Year from TechWeekly",
+      "Multiple cybersecurity excellence awards",
+      "Consistent high rankings in customer satisfaction surveys",
     ],
   },
   {
-    title: "Full stack certifacation",
-    company_name: "Altcademy",
+    title: "Careers at Quantum Dynamics",
+    company_name:
+      "Join us for a rewarding career that balances competitive compensation with continuous learning.",
     icon: "../../images/altcademy.png",
     iconBg: "#E6DEDD",
-    date: "25hrs",
     points: [
-      "Have built numerous full-stack applications, demonstrating the ability to work on both client-side and server-side code.",
-      "Developed robust and efficient server-side logic using languages like Node.js or Ruby, ensuring high performance and stability of the applications.",
-      "Leveraged back-end frameworks to manage routing, handle requests and responses, and interact with the database, simplifying the development process.",
-      "Optimized application performance by profiling and diagnosing issues on both the client and server side, ensuring fast and responsive applications.",
+      "Competitive salaries and benefit packages",
+      "A culture that emphasizes work-life balance",
+      "Continuous learning and development opportunities",
+      "Global work locations for a diverse experience",
     ],
   },
 ];
@@ -195,20 +193,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Reddit clone",
+    name: "Cloud Computing",
     description:
-      "A Reddit clone that has user authenticaiton. It also has post, subreddit, and comment creation. ",
+      "Seamlessly manage your data and applications with our state-of-the-art cloud computing solutions.",
     tags: [
       {
-        name: "react",
+        name: "Scalability",
         color: "blue-text-gradient",
       },
       {
-        name: "rubyonrails",
+        name: "Virtualization",
         color: "green-text-gradient",
       },
       {
-        name: "bootstrap",
+        name: "OpenStack",
         color: "pink-text-gradient",
       },
     ],
@@ -216,20 +214,20 @@ const projects = [
     source_code_link: "https://marcusayersredditv2.herokuapp.com/",
   },
   {
-    name: "Airbnb clone",
+    name: "AI Solutions",
     description:
-      "A Airbnb clone that allows you to create, and edit, new listings. As well as a feature to book listings, and handle payments using stripe.",
+      "Harness the power of artificial intelligence to make data-driven decisions and automate processes.",
     tags: [
       {
-        name: "react",
+        name: "MachineLearning",
         color: "blue-text-gradient",
       },
       {
-        name: "rubyonrails",
+        name: "Analytics",
         color: "green-text-gradient",
       },
       {
-        name: "stripe",
+        name: "Predictive",
         color: "pink-text-gradient",
       },
     ],
@@ -237,20 +235,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Shopify App",
+    name: "Cybersecurity",
     description:
-      "A Shopify app using shopifys api to show products. I have also used react three fiber and blender to create custom models to showcase the shopify products.",
+      "Protect your digital assets with our top-of-the-line cybersecurity services.",
     tags: [
       {
-        name: "nextjs",
+        name: "Encryption",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Antivirus",
         color: "green-text-gradient",
       },
       {
-        name: "reactthreefiber",
+        name: "Firewalls",
         color: "pink-text-gradient",
       },
     ],

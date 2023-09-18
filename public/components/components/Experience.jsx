@@ -21,7 +21,6 @@ const ExperienceCard = ({ experience }) => {
         color: "#re",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
-      date={experience.date}
       iconStyle={{ background: experience.iconBg }}
       icon={
         <div className="flex justify-center items-center w-full h-full">
@@ -71,7 +70,7 @@ const Experience = () => {
           What I have done so far
         </p> */}
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          My Education
+          Cutting-Edge Technologies at Quantum Dynamics Inc.{" "}
         </h2>
       </motion.div>
 
