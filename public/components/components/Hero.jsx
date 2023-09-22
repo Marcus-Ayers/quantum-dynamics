@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
-import { ComputersCanvas, EarthCanvas } from "./canvas";
+import { PhoneCanvas } from "./canvas";
 import { useGLTF } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import Experience from "./Laptop";
