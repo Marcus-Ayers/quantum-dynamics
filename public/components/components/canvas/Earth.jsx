@@ -9,23 +9,21 @@ import {
 
 import CanvasLoader from "../Loader";
 
-const Earth = () => {
-  const earth = useGLTF(
-    "https://vazxmixjsiawhamofees.supabase.co/storage/v1/object/public/models/low-poly-spaceship/model.gltf"
-  );
+const Earth = ({ threeModel }) => {
+  const earth = useGLTF(threeModel);
 
   return (
     <primitive
       object={earth.scene}
       scale={1}
-      position-y={0}
-      rotation-y={0}
-      rotation-x={0.2}
+      position-y={-1}
+      rotation-y={0.3}
+      rotation-x={0.1}
     />
   );
 };
 
-const EarthCanvas = () => {
+const EarthCanvas = ({model}) => {
   return (
     <Canvas
       shadows
@@ -36,7 +34,7 @@ const EarthCanvas = () => {
         fov: 45,
         near: 0.1,
         far: 200,
-        position: [-4, 3, 6],
+        position: [-1, 3, 6],
       }}
     >
       <Suspense fallback={<CanvasLoader />}>
@@ -47,10 +45,9 @@ const EarthCanvas = () => {
           maxPolarAngle={Math.PI / 2}
           minPolarAngle={Math.PI / 2}
         />
-        <Earth />
+        <Earth threeModel={model} />
+        <Environment preset="city" />
         <ambientLight intensity={0.3} />
-        <pointLight color={"orange"} />
-        <spotLight color={"orange"} />
 
         <Preload all />
       </Suspense>

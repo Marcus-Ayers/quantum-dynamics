@@ -16,8 +16,12 @@ const Ball = (props) => {
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
       <ambientLight intensity={0.25} />
-      <directionalLight color={"red"} position={[0, 0, 0.05]} />
-      <ambientLight intensity={0.3} />
+      <directionalLight
+        color={"#663eb7"}
+        intensity={2}
+        position={[0, 0, 0.5]}
+      />
+      <ambientLight intensity={0.6} />
       <mesh castShadow receiveShadow scale={2.75}>
         <sphereGeometry args={[0.94, 90, 90]} />
         <meshStandardMaterial

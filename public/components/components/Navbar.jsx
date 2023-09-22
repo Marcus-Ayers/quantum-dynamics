@@ -43,14 +43,11 @@ const Navbar = () => {
           }}
         > */}
         <img
-          src="../../images/logoColor.svg"
+          src="../../images/techLogo.png"
           alt="logo"
-          className="w-9 h-9 object-contain"
+          className="w-[60px] h-[40px] rounded-md"
         />
-        <p className="text-white text-[18px] font-bold cursor-pointer flex ">
-          Marcus &nbsp;
-          {/* <span className='sm:block hidden'> | JavaScript Mastery</span> */}
-        </p>
+
         {/* </Link> */}
 
         <ul className="list-none hidden sm:flex flex-row gap-10">

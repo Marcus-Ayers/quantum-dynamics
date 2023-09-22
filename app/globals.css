@@ -58,11 +58,11 @@ body {
 }
 
 .violet-gradient {
-  background: #f12711;
-  background: linear-gradient(-90deg, #f12711 0%, rgba(60, 51, 80, 0) 100%);
+  background: #663eb7;
+  background: linear-gradient(-90deg, #663eb7 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #f12711 0%,
+    #663eb7 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
@@ -74,15 +74,15 @@ body {
 }
 
 .orange-text-gradient {
-  background: #f12711; /* fallback for old browsers */
+  background: #663eb7; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to top,
-    #f12711,
+    #663eb7,
     #f5af19
   ); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(
     to top,
-    #f12711,
+    #663eb7,
     #f5af19
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
@@ -229,4 +229,9 @@ body {
 
 .vertical-timeline::before {
   background-color: red;
+}
+
+.htmlScreen iframe {
+  width: 1024px;
+  height: 670px;
 }

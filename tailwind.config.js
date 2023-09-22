@@ -30,7 +30,7 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/images/black.jpeg')",
+        "hero-pattern": "url('/images/purple.jpeg')",
       },
     },
   },

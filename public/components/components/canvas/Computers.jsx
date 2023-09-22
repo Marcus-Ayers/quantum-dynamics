@@ -23,7 +23,7 @@ const Computers = ({ isMobile }) => {
     }
   });
 
-  const computer = useGLTF("./desktop_pc/pc-gaming-deskDraco.glb");
+  const computer = useGLTF("./desktop_pc/model.gltf");
 
   console.log(computer.scene);
 
@@ -76,6 +76,7 @@ const Computers = ({ isMobile }) => {
   return (
     <mesh>
       <hemisphereLight intensity={0.4} groundColor="black" />
+      <ambientLight intensity={1} />
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}

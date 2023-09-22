@@ -59,15 +59,15 @@ const services = [
 const technologies = [
   {
     name: "HTML 5",
-    icon: "../../images/tech/html.png",
+    icon: "../../images/tech/amazon.png",
   },
   {
     name: "CSS 3",
-    icon: "../../images/tech/css.png",
+    icon: "../../images/tech/shell.png",
   },
   {
     name: "JavaScript",
-    icon: "../../images/tech/javascript.png",
+    icon: "../../images/tech/att.png",
   },
   // {
   //   name: "TypeScript",
@@ -75,7 +75,7 @@ const technologies = [
   // },
   {
     name: "React JS",
-    icon: "../../images/tech/reactjs.png",
+    icon: "../../images/tech/microsoft.png",
   },
   // {
   //   name: "Redux Toolkit",
@@ -83,23 +83,23 @@ const technologies = [
   // },
   {
     name: "Tailwind CSS",
-    icon: "../../images/tech/tailwind.png",
+    icon: "../../images/tech/pepsi.png",
   },
   {
     name: "Node JS",
-    icon: "../../images/tech/nodejs.png",
+    icon: "../../images/tech/toyota.png",
   },
   {
     name: "MongoDB",
-    icon: "../../images/tech/mongodb.png",
+    icon: "../../images/tech/adidas.png",
   },
   {
     name: "Three JS",
-    icon: "../../images/tech/threejs.svg",
+    icon: "../../images/tech/beats.png",
   },
   {
     name: "git",
-    icon: "../../images/tech/git.png",
+    icon: "../../images/tech/bmw.png",
   },
   // {
   //   name: "figma",
@@ -116,7 +116,7 @@ const experiences = [
     title: "Our Partnerships",
     company_name:
       "We collaborate with tech giants to access exclusive resources and drive innovation.",
-    icon: "../../images/altcademy.png",
+    icon: "../../images/techLogo.png",
     iconBg: "#383E56",
     points: [
       "Collaborations with industry leaders like Microsoft, Google, and IBM",
@@ -128,7 +128,7 @@ const experiences = [
     title: "Sustainability Initiatives",
     company_name:
       "We prioritize eco-friendly practices, from carbon-neutral data centers to renewable energy investments.",
-    icon: "../../images/altcademy.png",
+    icon: "../../images/techLogo.png",
     iconBg: "#E6DEDD",
     points: [
       "Carbon-neutral data centers",
@@ -141,7 +141,7 @@ const experiences = [
     title: "Awards & Recognition",
     company_name:
       "Accolades from industry authorities affirm our commitment to excellence and customer satisfaction.",
-    icon: "../../images/altcademy.png",
+    icon: "../../images/techLogo.png",
     iconBg: "#383E56",
     points: [
       "Best Tech Company of the Year from TechWeekly",
@@ -153,7 +153,7 @@ const experiences = [
     title: "Careers at Quantum Dynamics",
     company_name:
       "Join us for a rewarding career that balances competitive compensation with continuous learning.",
-    icon: "../../images/altcademy.png",
+    icon: "../../images/techLogo.png",
     iconBg: "#E6DEDD",
     points: [
       "Competitive salaries and benefit packages",
@@ -210,7 +210,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "../../images/reddit2.png",
+    image: "../../images/cloud.png",
     source_code_link: "https://marcusayersredditv2.herokuapp.com/",
   },
   {
@@ -231,7 +231,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "../../images/airbnb.png",
+    image: "../../images/ai.jpeg",
     source_code_link: "https://github.com/",
   },
   {
@@ -252,7 +252,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: "../../images/shopify1.png",
+    image: "../../images/cyber.png",
     source_code_link: "https://commerce-wheat-ten-38.vercel.app/",
   },
 ];

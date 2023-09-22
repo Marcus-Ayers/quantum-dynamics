@@ -16,9 +16,9 @@ import {
 const App = () => {
   return (
     // <BrowserRouter>
-    <div className="relative z-0 bg-primary">
+    <div className="relative z-0 bg-primary ">
       <div
-        className="bg-hero-pattern bg-cover bg-no-repeat bg-center"
+        className="bg-hero-pattern bg-cover bg-no-repeat bg-center "
         // style={{ backgroundImage: "/../public/images/black.jpeg" }}
       >
         <Navbar />
